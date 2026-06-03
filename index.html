@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aiken SC Locksmith Resource Guide | Zento Lock &amp; Key</title>
+  <meta name="description" content="A practical locksmith resource guide for Aiken, SC residents. Emergency help, home security tips, car lockouts, rekeying, and scam prevention." />
+  <link rel="canonical" href="https://zentolocknkey.github.io/aiken-sc-locksmith-resource-guide" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Aiken SC Locksmith Resource Guide | Zento Lock &amp; Key" />
+  <meta property="og:description" content="A practical locksmith resource guide for Aiken, SC residents. Emergency help, home security tips, car lockouts, rekeying, and scam prevention." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://zentolocknkey.github.io/aiken-sc-locksmith-resource-guide" />
+
+  <!-- JSON-LD LocalBusiness Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Locksmith",
+    "name": "Zento Lock & Key",
+    "url": "https://locksmithaikensc.com/",
+    "telephone": "+18036135241",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "164 University Pkwy, Ste B",
+      "addressLocality": "Aiken",
+      "addressRegion": "SC",
+      "postalCode": "29801",
+      "addressCountry": "US"
+    },
+    "areaServed": [
+      "Aiken, SC",
+      "North Augusta, SC",
+      "Graniteville, SC",
+      "Warrenville, SC",
+      "Clearwater, SC",
+      "Bath, SC",
+      "Aiken County, SC"
+    ],
+    "openingHours": "Mo-Su 00:00-24:00",
+    "description": "24/7 mobile locksmith serving Aiken County with emergency lockout, residential, commercial, and automotive locksmith services.",
+    "sameAs": [
+      "https://locksmithaikensc.com/"
+    ]
+  }
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ===== DESIGN TOKENS ===== */
+    :root {
+      --ink:       #1a1612;
+      --paper:     #f5f0e8;
+      --warm-mid:  #e8e0d0;
+      --accent:    #c94f00;        /* deep burnt orange */
+      --accent-lt: #ff6600;        /* Zento brand orange */
+      --gold:      #8a6e3a;
+      --text-body: #3d3530;
+      --text-muted:#6b5f54;
+      --border:    #d4c9b8;
+
+      --ff-head: 'DM Serif Display', Georgia, serif;
+      --ff-body: 'DM Sans', system-ui, sans-serif;
+
+      --max-w: 860px;
+      --r: 6px;
+    }
+
+    /* ===== RESET / BASE ===== */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--paper);
+      color: var(--text-body);
+      font-family: var(--ff-body);
+      font-size: 1.0625rem;
+      line-height: 1.72;
+      -webkit-font-smoothing: antialiased;
+    }
+    img { display: block; max-width: 100%; height: auto; }
+    a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+    a:hover { color: var(--accent-lt); }
+
+    /* ===== HEADER / HERO ===== */
+    .site-header {
+      background: var(--ink);
+      color: #f5f0e8;
+      padding: 0.6rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .site-header .brand {
+      font-family: var(--ff-head);
+      font-size: 1.1rem;
+      letter-spacing: 0.02em;
+      color: #f5f0e8;
+    }
+    .site-header .cta-phone {
+      background: var(--accent-lt);
+      color: #fff;
+      padding: 0.4rem 1.1rem;
+      border-radius: var(--r);
+      font-weight: 600;
+      font-size: 0.92rem;
+      text-decoration: none;
+      white-space: nowrap;
+      transition: background 0.2s;
+    }
+    .site-header .cta-phone:hover { background: var(--accent); color: #fff; }
+
+    .hero {
+      background: var(--ink);
+      color: var(--paper);
+      padding: 3.5rem 1.5rem 3rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: repeating-linear-gradient(
+        -45deg,
+        transparent,
+        transparent 28px,
+        rgba(255,102,0,0.045) 28px,
+        rgba(255,102,0,0.045) 29px
+      );
+      pointer-events: none;
+    }
+    .hero-inner { position: relative; max-width: var(--max-w); margin: auto; }
+    .hero-eyebrow {
+      display: inline-block;
+      background: var(--accent-lt);
+      color: #fff;
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 0.25rem 0.75rem;
+      border-radius: 2px;
+      margin-bottom: 1rem;
+    }
+    .hero h1 {
+      font-family: var(--ff-head);
+      font-size: clamp(1.9rem, 5vw, 2.85rem);
+      line-height: 1.18;
+      margin-bottom: 1rem;
+      color: #f5f0e8;
+    }
+    .hero-sub {
+      font-size: 1.05rem;
+      color: #c9bfb0;
+      max-width: 620px;
+      margin: 0 auto 1.6rem;
+    }
+    .hero-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      justify-content: center;
+    }
+    .badge {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.15);
+      color: #e0d9cf;
+      font-size: 0.82rem;
+      padding: 0.3rem 0.75rem;
+      border-radius: 20px;
+    }
+
+    /* ===== LAYOUT ===== */
+    .page-wrap {
+      max-width: var(--max-w);
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem 3rem;
+    }
+
+    /* ===== TYPOGRAPHY ===== */
+    h2 {
+      font-family: var(--ff-head);
+      font-size: 1.6rem;
+      color: var(--ink);
+      margin: 2.6rem 0 0.75rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 2px solid var(--border);
+    }
+    h2:first-of-type { margin-top: 1rem; }
+    h3 {
+      font-family: var(--ff-head);
+      font-size: 1.2rem;
+      color: var(--accent);
+      margin: 1.8rem 0 0.5rem;
+      font-style: italic;
+    }
+    p { margin-bottom: 1rem; }
+    ul, ol { margin: 0.5rem 0 1rem 1.35rem; }
+    li { margin-bottom: 0.35rem; }
+
+    /* ===== CALLOUT BOX ===== */
+    .callout {
+      border-left: 4px solid var(--accent-lt);
+      background: #fff7f0;
+      padding: 1rem 1.25rem;
+      margin: 1.5rem 0;
+      border-radius: 0 var(--r) var(--r) 0;
+    }
+    .callout strong { color: var(--accent); }
+    .callout p:last-child { margin-bottom: 0; }
+
+    /* ===== TABLE ===== */
+    .table-wrap { overflow-x: auto; margin: 1.5rem 0; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.93rem;
+    }
+    thead tr { background: var(--accent-lt); color: #fff; }
+    thead th { padding: 0.65rem 0.9rem; text-align: left; font-weight: 600; }
+    tbody tr:nth-child(even) { background: var(--warm-mid); }
+    tbody tr:nth-child(odd)  { background: #fff; }
+    tbody td { padding: 0.6rem 0.9rem; border-bottom: 1px solid var(--border); }
+
+    /* ===== CHECKLIST ===== */
+    .checklist { list-style: none; margin-left: 0; }
+    .checklist li {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.6rem;
+      margin-bottom: 0.55rem;
+    }
+    .checklist li::before {
+      content: '✓';
+      color: var(--accent-lt);
+      font-weight: 700;
+      flex-shrink: 0;
+      margin-top: 0.05rem;
+    }
+
+    /* ===== FAQ ===== */
+    .faq-block { margin-top: 1rem; }
+    details {
+      border: 1px solid var(--border);
+      border-radius: var(--r);
+      margin-bottom: 0.75rem;
+      background: #fff;
+    }
+    summary {
+      padding: 0.9rem 1.1rem;
+      font-weight: 600;
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.5rem;
+      color: var(--ink);
+    }
+    summary::-webkit-details-marker { display: none; }
+    summary::after {
+      content: '+';
+      font-size: 1.3rem;
+      color: var(--accent-lt);
+      font-weight: 400;
+      flex-shrink: 0;
+    }
+    details[open] summary::after { content: '−'; }
+    .faq-answer { padding: 0 1.1rem 1rem; color: var(--text-body); }
+    .faq-answer p:last-child { margin-bottom: 0; }
+
+    /* ===== NAP BLOCK ===== */
+    .nap-block {
+      background: var(--ink);
+      color: var(--paper);
+      border-radius: var(--r);
+      padding: 1.6rem 1.5rem;
+      margin: 2.2rem 0 1.5rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem 2rem;
+    }
+    @media (max-width: 540px) { .nap-block { grid-template-columns: 1fr; } }
+    .nap-block h3 {
+      grid-column: 1 / -1;
+      font-family: var(--ff-head);
+      font-style: normal;
+      font-size: 1.1rem;
+      color: var(--accent-lt);
+      margin: 0 0 0.4rem;
+    }
+    .nap-item { font-size: 0.93rem; line-height: 1.55; }
+    .nap-item span { display: block; color: #a09080; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.2rem; }
+    .nap-item a { color: var(--accent-lt); }
+
+    /* ===== CTA STRIP ===== */
+    .cta-strip {
+      background: linear-gradient(135deg, var(--accent) 0%, var(--accent-lt) 100%);
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1.5rem;
+      border-radius: var(--r);
+      margin: 1.5rem 0;
+    }
+    .cta-strip p { color: rgba(255,255,255,0.9); margin-bottom: 1rem; }
+    .cta-strip a {
+      display: inline-block;
+      background: #fff;
+      color: var(--accent);
+      font-weight: 700;
+      font-size: 1rem;
+      padding: 0.65rem 1.6rem;
+      border-radius: var(--r);
+      text-decoration: none;
+      transition: opacity 0.2s;
+    }
+    .cta-strip a:hover { opacity: 0.88; }
+
+    /* ===== FOOTER ===== */
+    .site-footer {
+      background: var(--ink);
+      color: #7a6f64;
+      text-align: center;
+      font-size: 0.82rem;
+      padding: 1.2rem;
+      margin-top: 2rem;
+    }
+    .site-footer a { color: #9a8e82; }
+
+    /* ===== UTILITY ===== */
+    .text-muted { color: var(--text-muted); font-size: 0.9rem; }
+    .mt-sm { margin-top: 0.5rem; }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <span class="brand">Zento Lock &amp; Key</span>
+    <a href="tel:+18036135241" class="cta-phone">☎ (803) 613-5241</a>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" role="banner">
+    <div class="hero-inner">
+      <span class="hero-eyebrow">Aiken County, SC</span>
+      <h1>Aiken SC Locksmith Resource Guide<br><em style="font-size:0.7em;font-style:italic;opacity:0.75">by Zento Lock &amp; Key</em></h1>
+      <p class="hero-sub">Practical guidance on emergency lockouts, home security, car key replacements, and how to avoid locksmith scams — written for real people in Aiken and the surrounding county.</p>
+      <div class="hero-badges">
+        <span class="badge">24 / 7 Mobile Locksmith</span>
+        <span class="badge">Aiken County</span>
+        <span class="badge">Clear Pricing Guidance</span>
+        <span class="badge">Residential · Commercial · Automotive</span>
+      </div>
+    </div>
+  </section>
+  <!-- Image suggestion: hero banner showing a close-up of a deadbolt on a classic Southern-style front door with warm afternoon light | alt="Mobile locksmith servicing a home in Aiken SC" -->
+
+  <!-- MAIN CONTENT -->
+  <main class="page-wrap" id="main">
+
+    <p>Whether you are locked out at midnight on Whiskey Road, need to rekey a rental on University Parkway after a tenant change, or want a smart lock installed at a Woodside Plantation home — finding the right help quickly matters. This guide pulls together the information Aiken residents ask about most, organized so you can find what you need without digging through a wall of text.</p>
+
+    <!-- ===== H2 #1 ===== -->
+    <h2>Emergency Lockouts in Aiken: What to Do First</h2>
+    <p>Getting locked out happens to almost everyone eventually. A key snaps in a cold lock, a car door closes before you reach for your keys, or a toddler turns the thumb-turn from the inside. The situation feels urgent, but a few calm steps go a long way.</p>
+
+    <h3>Before you call anyone</h3>
+    <ul>
+      <li>Check every door and window — not just the one you last used.</li>
+      <li>Ask a neighbor or family member if they hold a spare key.</li>
+      <li>If your car has a manufacturer app (OnStar, FordPass, connected BMW), try the remote unlock first.</li>
+      <li>Make sure your phone has enough battery to complete the call and receive a callback.</li>
+    </ul>
+
+    <p>Once you confirm you genuinely need a locksmith, call a local professional directly. <a href="https://locksmithaikensc.com/" rel="noopener">Zento Lock &amp; Key</a> dispatches from central Aiken and can reach most parts of Aiken County within a reasonable drive — including Graniteville, Warrenville, and Clearwater.</p>
+
+    <div class="callout">
+      <p><strong>Hot-weather tip:</strong> South Carolina summers push vehicles into dangerous heat within minutes. If a child or pet is locked inside a car anywhere in Aiken County, call 911 first — they can respond faster than any locksmith.</p>
+    </div>
+
+    <p>For a deeper walkthrough of what to expect during an emergency call, see this <a href="https://zentolocknkey.pages.dev/emergency-lockout-guide-aiken-residents" rel="noopener">emergency lockout guide for Aiken residents</a> — it covers dispatch times, what technicians need from you, and how pricing works.</p>
+
+    <!-- ===== H2 #2 ===== -->
+    <h2>Residential Lock Services: Homes Across Aiken County</h2>
+    <p>Aiken has a wide range of housing stock — from historic cottages near Downtown Aiken to newer construction in Gem Lakes and Southwood subdivisions. Lock needs vary just as much as the properties themselves.</p>
+
+    <h3>Rekeying vs. lock replacement</h3>
+    <p>Rekeying changes the internal pin configuration of an existing lock so that old keys no longer work. It costs less than a full lock replacement and is the right call when the hardware is still in good shape — common after buying a home, ending a lease, or losing a key. Lock replacement makes more sense when the deadbolt is worn, the latch is loose, or you want to upgrade to a higher-security cylinder.</p>
+
+    <p>Smart lock installation is growing in popularity across Aiken. A keypad or app-controlled deadbolt lets you grant one-time entry codes for contractors, dog walkers, or guests — no key duplication required. Battery backup means a power outage will not leave you stranded.</p>
+
+    <!-- CHECKLIST -->
+    <p><strong>After-move-in security checklist for Aiken homeowners:</strong></p>
+    <ul class="checklist">
+      <li>Rekey or replace all exterior locks, including the garage entry door.</li>
+      <li>Test every deadbolt — make sure the bolt extends fully and seats cleanly in the strike plate.</li>
+      <li>Reinforce strike plates with 3-inch screws that reach the door frame stud.</li>
+      <li>Check sliding doors for secondary security pins or a bar in the track.</li>
+      <li>Confirm window locks work on all ground-floor and accessible windows.</li>
+      <li>Decide who holds spare keys and store one outside in a quality key lockbox, not under a mat.</li>
+    </ul>
+
+    <!-- ===== H2 #3 ===== -->
+    <h2>Commercial Lock Security for Aiken Businesses</h2>
+    <p>Business owners along Aiken's commercial corridors face different concerns than homeowners. Employee turnover, after-hours access, and the need for a master key system all come into play. A master key setup lets a manager open every door while giving each employee access only to their specific area.</p>
+
+    <p>Access control systems — keypads, card readers, or fob entry — eliminate the problem of unreturned keys entirely. They also create an audit trail, which can be useful if a security question ever arises. For businesses operating out of older buildings near Downtown Aiken, an access control upgrade is often more practical than rekeying an aging lock set repeatedly.</p>
+
+    <p>High-security locks with restricted keyways are another option worth considering. Keys for these cylinders cannot be duplicated at a hardware store — only through a licensed locksmith with the correct blank.</p>
+
+    <p>For a printable reference, the <a href="https://zentolocknkey.netlify.app/business-lock-security-checklist" rel="noopener">business lock security checklist</a> covers the main points to review during an annual security walk-through.</p>
+
+    <!-- TABLE -->
+    <div class="table-wrap">
+      <table>
+        <caption class="text-muted mt-sm" style="caption-side:bottom;text-align:left;padding-top:0.4rem">Common commercial lock service scenarios and typical solutions</caption>
+        <thead>
+          <tr>
+            <th>Situation</th>
+            <th>Recommended Solution</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Employee leaves the company</td>
+            <td>Rekey affected locks or deactivate access card</td>
+          </tr>
+          <tr>
+            <td>Keys duplicated without authorization</td>
+            <td>Switch to restricted-keyway high-security locks</td>
+          </tr>
+          <tr>
+            <td>After-hours access for cleaning crew</td>
+            <td>Timed access code on a keypad lock</td>
+          </tr>
+          <tr>
+            <td>Multiple locations, one manager</td>
+            <td>Grandmaster key system across sites</td>
+          </tr>
+          <tr>
+            <td>Broken key stuck in lock</td>
+            <td>Broken key extraction, re-cut key on site</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- ===== H2 #4 ===== -->
+    <h2>Automotive Locksmith Services: Car Keys and Lockouts</h2>
+    <!-- Image suggestion: a technician programming a transponder key next to a modern car in a parking lot | alt="Locksmith programming a car key in Aiken SC" -->
+    <p>Car lockout calls are among the most common service requests in Aiken County. It happens in grocery store lots, at Aiken Regional Medical Centers, and along Silver Bluff Road after a long day. A professional locksmith can open most vehicles without damage — no coat hanger required, and no risk of triggering airbag sensors or scratching weatherstripping.</p>
+
+    <p>Beyond lockouts, automotive locksmith work includes:</p>
+    <ul>
+      <li><strong>Transponder key programming</strong> — modern car keys contain a chip that must be paired to the vehicle's immobilizer. This requires specialized programming equipment.</li>
+      <li><strong>Key fob replacement</strong> — remotes can be reprogrammed on site in most cases, avoiding dealership wait times and markups.</li>
+      <li><strong>Ignition repair</strong> — a worn ignition cylinder can make a key difficult to turn or prevent the car from starting at all.</li>
+      <li><strong>Broken key extraction</strong> — a snapped key in the ignition or door lock requires careful removal before a new key can be cut.</li>
+    </ul>
+
+    <div class="callout">
+      <p><strong>Before you call a dealership:</strong> Dealerships often charge significantly more for key programming and replacement than a qualified mobile locksmith. A technician can come to your location in Aiken rather than requiring a tow.</p>
+    </div>
+
+    <!-- ===== H2 #5 ===== -->
+    <h2>How to Spot a Locksmith Scam</h2>
+    <p>Locksmith fraud is a real problem across South Carolina and the rest of the country. Knowing the warning signs protects you when you are already stressed from a lockout.</p>
+
+    <ul>
+      <li><strong>Extremely low advertised prices:</strong> A quote of $15 or $25 to unlock a door is almost always a bait-and-switch. Expect a real price once the technician arrives and refuses to honor the original quote.</li>
+      <li><strong>No local address:</strong> Legitimate locksmiths have a verifiable business address. National call centers that dispatch unknown subcontractors often have no local accountability.</li>
+      <li><strong>Unmarked vehicles:</strong> A professional locksmith typically arrives in a labeled vehicle with proper tools — not a personal car with a generic toolbox.</li>
+      <li><strong>Pressure to drill immediately:</strong> Most lock openings do not require drilling. A technician who reaches for a drill without trying to pick or bypass the lock first should raise a red flag.</li>
+      <li><strong>No written estimate:</strong> Ask for a total price before any work begins. A trustworthy locksmith should be willing to explain pricing before work begins.</li>
+    </ul>
+
+    <p>North Augusta and Aiken County residents have both reported scam locksmith encounters. Calling a local business directly — rather than searching a generic ad at the top of a results page — is the simplest protection.</p>
+
+    <!-- ===== H2 #6 — FAQ ===== -->
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-block">
+
+      <details>
+        <summary>How long does it usually take a locksmith to arrive in Aiken, SC?</summary>
+        <div class="faq-answer">
+          <p>Arrival time varies based on current traffic, time of day, and the technician's location when the call comes in. A mobile locksmith serving central Aiken — including areas near University Parkway and Whiskey Road — will generally arrive sooner than one responding to the outer edges of Aiken County. When you call, ask for a realistic estimate based on where the technician is at that moment. A straightforward local service should be willing to give you a candid answer rather than a guarantee they cannot control.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Is rekeying a lock as secure as replacing it?</summary>
+        <div class="faq-answer">
+          <p>Yes, in most cases. Rekeying changes the key combination by swapping the internal pins, so previous keys become useless. The security of a rekeyed lock depends on the quality of the lock itself. If your existing deadbolt is a solid Grade 1 or Grade 2 lock, rekeying it is just as effective as buying a new one. If the lock is old, worn, or a low-grade knob set, replacing it is the smarter move.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Can a locksmith make a new car key if I have lost all my copies?</summary>
+        <div class="faq-answer">
+          <p>Yes. A locksmith with automotive key programming equipment can generate a new key from the vehicle identification number (VIN) and program it to your car's immobilizer — even with zero working keys on hand. This is called a "key from scratch" job and typically requires proof of ownership. It takes more time than a duplicate cut, but it avoids an expensive tow to a dealership.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Do I need a locksmith for a smart lock installation, or can I do it myself?</summary>
+        <div class="faq-answer">
+          <p>Many smart locks are designed for DIY installation on a standard door prep. However, a locksmith is worth calling if your door has a non-standard bore, if the existing deadbolt is misaligned, or if you want the lock properly integrated with a home automation system. A professional can also make sure the strike plate is reinforced correctly — a step that DIY guides often skip but that matters more than the lock itself.</p>
+        </div>
+      </details>
+
+    </div>
+
+    <!-- NAP BLOCK -->
+    <div class="nap-block" itemscope itemtype="https://schema.org/Locksmith">
+      <h3>Contact Zento Lock &amp; Key</h3>
+      <div class="nap-item">
+        <span>Business</span>
+        <strong itemprop="name">Zento Lock &amp; Key</strong>
+      </div>
+      <div class="nap-item">
+        <span>Phone</span>
+        <a href="tel:+18036135241" itemprop="telephone">(803) 613-5241</a>
+      </div>
+      <div class="nap-item">
+        <span>Address</span>
+        <span itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+          <span itemprop="streetAddress">164 University Pkwy, Ste B</span><br>
+          <span itemprop="addressLocality">Aiken</span>, <span itemprop="addressRegion">SC</span> <span itemprop="postalCode">29801</span>
+        </span>
+      </div>
+      <div class="nap-item">
+        <span>Website</span>
+        <span itemprop="url">locksmithaikensc.com</span>
+      </div>
+      <div class="nap-item">
+        <span>Hours</span>
+        <span itemprop="openingHours" content="Mo-Su 00:00-24:00">24 hours a day, 7 days a week</span>
+      </div>
+      <div class="nap-item">
+        <span>Service Area</span>
+        Aiken, North Augusta, Graniteville, Warrenville, Clearwater, Bath, Aiken County
+      </div>
+    </div>
+
+    <!-- CTA STRIP -->
+    <div class="cta-strip">
+      <h2 style="font-family:var(--ff-head);color:#fff;border:none;margin:0 0 0.5rem;padding:0;font-size:1.4rem;">Need a locksmith in Aiken County right now?</h2>
+      <p>Call for a straightforward answer on pricing and an honest estimate of when a technician can reach you. Serving Aiken and the surrounding county around the clock.</p>
+      <a href="tel:+18036135241">(803) 613-5241 — Call Zento Lock &amp; Key</a>
+    </div>
+    <!-- Image suggestion: friendly locksmith technician standing beside a branded work van in front of a recognizable Aiken landmark | alt="Zento Lock and Key mobile locksmith van in Aiken SC" -->
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <p>&copy; <span id="yr"></span> Zento Lock &amp; Key · 164 University Pkwy Ste B, Aiken, SC 29801 · <a href="tel:+18036135241">(803) 613-5241</a> · locksmithaikensc.com</p>
+  </footer>
+
+  <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
